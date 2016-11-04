@@ -1,0 +1,6 @@
+Instructions for running simulation.R (Version 1.0, created 2015.11.16)
+
+Place the files simulation.R, correspondences.txt, and preamble.txt in one and the same folder. Open R and change the working directory to that folder (click File > Change dir; select the folder, and press ok). Open simulation.R (click File > Open script). Place the cursor on the script and press Ctrl-a to select the whole script and then Ctrl-r to read it into the working memory. The script is now started by writing run(X) plus return in the R console, where X is the number of desired language families (some of which may go extinct such that a smaller number than the one selected may be output).
+
+The script does not depend on any other R packages, but it needs the supplied files correspondences.txt and preamble.txt. The first of these contains information about probabilities of change between different segments and the latter is used for creating word lists in the standard ASJP format.
+
